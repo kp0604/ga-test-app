@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect } from 'react';
 import {  useLocation } from 'react-router-dom';
+import Dash from './dash';
 
 function App() {
     let location = useLocation();
@@ -16,6 +17,7 @@ function App() {
     return (
         <div className="App">
             <h1>ga test app</h1>
+            <Dash/>
         </div>
     );
 }
