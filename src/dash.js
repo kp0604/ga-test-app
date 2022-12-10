@@ -6,7 +6,7 @@ export default function Dash() {
     const [data, setData] = useState()
 
     useEffect( () => {
-        let url = 'https://analyticsdata.googleapis.com/v1beta/properties/GA4_PROPERTY_ID:p345903224'
+        let url = 'https://analyticsdata.googleapis.com/v1beta/properties/GA4_PROPERTY_ID:345903224'
         let body = {
             "dimensions": [{ "name": "country" }],
             "metrics": [{ "name": "activeUsers" }]
