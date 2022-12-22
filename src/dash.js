@@ -18,7 +18,7 @@ export default function Dash() {
         return gapi.client.load( "https://analyticsdata.googleapis.com/$discovery/rest?version=v1beta" )
             .then( function () {
                 console.log( "GAPI client loaded for API" );
-                execute()
+                //execute()
             },
                 function ( err ) { console.error( "Error loading GAPI client for API", err ); } );
     }
