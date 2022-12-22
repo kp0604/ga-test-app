@@ -75,8 +75,8 @@ export default function Dash() {
             <p>NOTE : first load client to load report datas</p>
             <button onClick={() => authenticate().then( loadClient() )}>load client</button>
             <h1>data from runrealtimereport</h1>
-            <h3>Screen page views</h3>
             <button onClick={() => execute()}>getdata-from-runrealtime-report</button>
+            <h3>Screen page views</h3>
             <p>{data?.rows[0]?.metricValues[0].value}</p>
             <h3>active users</h3>
             <p>{data?.rows[0].metricValues[1].value}</p>
