@@ -16,7 +16,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>ga test app</h1>
+            <h1>ga4 test app</h1>
             <Dash/>
         </div>
     );
