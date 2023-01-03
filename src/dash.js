@@ -27,6 +27,9 @@ export default function Dash() {
         return gapi.client.analyticsdata.properties.runRealtimeReport( {
             "property": "properties/345903224",
             "resource": {
+                "dimensions":[{
+                    "name":"deviceCategory"
+                }],
                 "metrics": [
                     {
                         "name": "screenPageViews",
